@@ -1,0 +1,14 @@
+.header-items {
+  margin: 0;
+  gap: clamp(1.25rem, 0.6786rem + 2.8571vw, 3.25rem);
+}
+
+.header-items li {
+  color: var(--white);
+  list-style: none;
+  transition: color 0.2s ease-in;
+}
+
+.header-items li:hover {
+  color: var(--cyan);
+}

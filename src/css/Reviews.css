@@ -1,0 +1,26 @@
+.reviews {
+  border: 4px solid purple;
+}
+
+.review-wrapper {
+  gap: 12px;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.review-block {
+  background-color: var(--dark-blue--4);
+}
+
+.avatar-pic {
+  /* border-radius: 50%; */
+  width: clamp(3.125rem, 1.6964rem + 2.9762vw, 4.375rem);
+  height: clamp(3.125rem, 1.6964rem + 2.9762vw, 4.375rem);
+}
+
+@media (max-width: 990px) {
+  .review-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

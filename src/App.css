@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* Font weight 400, 700 */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  color-scheme: dark light;
 }
 
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: var(--dark-blue--2);
 }
 
-.App-link {
-  color: #61dafb;
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+.font-lg-700 {
+  font-size: clamp(1.375rem, 1.1743rem + 0.9174vw, 2rem);
+  font-weight: 700;
+}
+
+.font-md-400 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.font-md-700 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.font-sm-400 {
+  font-size: clamp(0.875rem, 0.831rem + 0.1878vw, 1rem);
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.font-sm-700 {
+  font-size: clamp(0.875rem, 0.831rem + 0.1878vw, 1rem);
+  font-weight: 700;
+}
+
+.font-xs-400 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.header-logo {
+  width: clamp(5.3125rem, 4.1021rem + 5.1643vw, 8.75rem);
+  object-fit: cover;
+}
+
+.footer-logo {
+}
+
+:root {
+  --dark-blue--1: hsl(217, 28%, 15%); /*intro and email sign up */
+  --dark-blue--2: hsl(218, 28%, 13%); /* main background */
+  --dark-blue--3: hsl(216, 53%, 9%); /* footer background */
+  --dark-blue--4: hsl(219, 30%, 18%); /* testimonials */
+
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --orange: hsl(0, 100%, 63%);
+  --white: hsl(0, 0%, 100%);
+
+  --tablet: 990px;
+  --mobile: 762px;
 }
