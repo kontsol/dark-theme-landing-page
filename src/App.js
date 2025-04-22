@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Reviews from "./components/Reviews";
 import Testimonials from "./components/Testimonials";
+import EarlyAccessSignup from "./components/EarlyAccessSignup";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Testimonials />
       <ContentImageBlock />
       <Reviews />
+      <EarlyAccessSignup />
     </section>
   );
 }
