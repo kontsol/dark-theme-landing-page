@@ -1,3 +1,30 @@
 .early-access-signup {
   background-color: var(--dark-blue--1);
+  max-width: 900px;
+  gap: 24px;
+}
+
+.early-access-signup h1 {
+  color: var(--white);
+}
+
+.early-access-signup p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.email-signup-container {
+  width: 100%;
+  gap: 24px;
+}
+
+.email-input {
+  background-color: var(--white);
+  border: 0;
+  border-radius: 36px;
+  color: #000;
+}
+
+.submit-button:hover {
+  background-color: var(--cyan);
 }

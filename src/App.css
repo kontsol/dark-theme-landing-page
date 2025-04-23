@@ -64,6 +64,11 @@ select {
   font-weight: 700;
 }
 
+.font-xs-700 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .font-xs-400 {
   font-size: 12px;
   font-weight: 400;

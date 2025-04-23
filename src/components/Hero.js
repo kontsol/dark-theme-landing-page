@@ -16,7 +16,7 @@ const Hero = () => {
         them wherever you need, share and collaborate with friends family, and
         co-workers.
       </p>
-      <Button text="Get Started" />
+      <Button type="button" text="Get Started" />
     </div>
   );
 };
