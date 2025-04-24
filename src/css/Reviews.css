@@ -1,10 +1,10 @@
 .reviews {
   position: relative;
   z-index: 100;
+  margin-bottom: 20rem !important;
 }
 
 .review-wrapper {
-  gap: 12px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -12,10 +12,6 @@
 .review-block {
   background-color: var(--dark-blue--4);
   border-radius: 8px;
-}
-
-.review-info {
-  gap: 16px;
 }
 
 #review-info-text p {

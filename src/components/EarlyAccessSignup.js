@@ -20,14 +20,14 @@ const EarlyAccessSignup = () => {
   };
 
   return (
-    <div className="early-access-signup container px-5 py-5 my-5 d-flex flex-column">
+    <div className="early-access-signup container gap-lg px-5 py-5 my-5 d-flex flex-column">
       <h1 className="text-center font-lg-700">Get early access today</h1>
       <p className="text-center font-sm-400">
         It only takes a minute to sign up and our free starter tier is extremely
         generous. If you have any questions, our support team would be happy to
         help you.
       </p>
-      <form className="row email-signup-container d-flex flex-column flex-md-row mt-4 px-2 px-lg-5">
+      <form className="row email-signup-container gap-lg d-flex flex-column flex-md-row mt-4 px-2 px-lg-5">
         <input
           type="email"
           id="email"

@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="hero py-5 d-flex flex-column text-center">
+    <div className="hero gap-lg container py-5 d-flex flex-column text-center">
       <img src={`${IMAGES_URL}/illustration-intro.png`} alt="hero-img" />
       <h1 className="font-lg-700">
         {" "}

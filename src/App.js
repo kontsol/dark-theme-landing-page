@@ -5,16 +5,20 @@ import Hero from "./components/Hero";
 import Reviews from "./components/Reviews";
 import Testimonials from "./components/Testimonials";
 import EarlyAccessSignup from "./components/EarlyAccessSignup";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <section className="container py-5">
+    <section className="pt-5">
       <Header />
       <Hero />
       <Testimonials />
       <ContentImageBlock />
       <Reviews />
-      <EarlyAccessSignup />
+      <div className="footer-wrapper">
+        <EarlyAccessSignup />
+        <Footer />
+      </div>
     </section>
   );
 }

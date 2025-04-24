@@ -1,6 +1,5 @@
 .content-image-block {
   display: flex;
-  gap: 24px;
 }
 
 @media screen and (max-width: 768px) {
@@ -15,7 +14,6 @@
   color: var(--white);
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
 .content-image-block__text-wrapper h1 {
@@ -23,7 +21,6 @@
 }
 
 .content-image-block__text-wrapper a {
-  gap: 6px;
   width: fit-content;
   color: var(--cyan) !important;
   border-bottom: 1px solid var(--cyan);

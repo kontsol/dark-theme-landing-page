@@ -2,7 +2,6 @@
   margin: auto;
   max-width: 500px;
   width: 100%;
-  gap: clamp(0.75rem, 1.071vw + 0.536rem, 1.5rem);
 }
 
 .hero h1,

@@ -1,0 +1,28 @@
+.footer-wrapper {
+  position: relative;
+}
+
+.footer {
+  background-color: var(--dark-blue--3);
+}
+.footer-container {
+  padding-top: 10rem;
+}
+
+ion-icon {
+  color: var(--white);
+  transition: color 0.4s ease-in-out;
+}
+
+ion-icon:hover {
+  color: var(--cyan);
+}
+
+.footer-list ul li {
+  transition: color 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.footer-list ul li:hover {
+  color: var(--cyan);
+}

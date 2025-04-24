@@ -4,7 +4,7 @@ import { TESTIMONIALS } from "../Global";
 
 const Testimonials = () => {
   return (
-    <div className="testimonials py-5 my-5">
+    <div className="testimonials container  py-5 my-5">
       {TESTIMONIALS.map((item, index) => (
         <div
           className="testimonials-item d-flex flex-column align-items-center justify-content-center"

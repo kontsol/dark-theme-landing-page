@@ -3,8 +3,7 @@
   grid-template-columns: 1fr 1fr;
   max-width: 750px;
   margin: auto;
-  gap: 80px;
-  /* gap: 24px; */
+  gap: 120px;
 }
 
 .testimonials-item h1,
@@ -16,6 +15,6 @@
 @media screen and (max-width: 768px) {
   .testimonials {
     grid-template-columns: 1fr !important;
-    gap: 20px;
+    gap: 24px;
   }
 }

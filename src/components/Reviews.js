@@ -5,17 +5,17 @@ import { IMAGES_URL } from "../Global";
 
 const Reviews = () => {
   return (
-    <div className="reviews container py-5 my-5">
+    <div className="reviews container py-5 mt-5">
       <img
         src={`${IMAGES_URL}/bg-quotes.png`}
         alt="quotes"
         id="reviews-quotes"
       />
-      <div className="review-wrapper">
+      <div className="review-wrapper gap-md">
         {REVIEWS.map((item, index) => (
           <div className="p-4 review-block" key={index}>
             <p>{item.text}</p>
-            <div className="review-info d-flex">
+            <div className="gap-md d-flex">
               <img
                 className="avatar-pic rounded-circle"
                 src={item.profile}
